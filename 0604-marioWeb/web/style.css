@@ -1,0 +1,28 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    display: block;
+    width: 100%;
+}
+body {
+    font-family: 'Catamaran', sans-serif;
+    color: white;
+}
+#banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image:   url('images/bg-pattern-logos.png'), 
+                        linear-gradient(#e70112 15%,#b20722 75%);
+}
+#banner .row {
+    display: flex;
+    width: 80%;
+}
